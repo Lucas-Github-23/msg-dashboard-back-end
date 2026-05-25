@@ -1,0 +1,6 @@
+@MsgDashboardBackend_HostAddress = http://localhost:5174
+
+GET {{MsgDashboardBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
