@@ -1,12 +1,9 @@
-# Pastas de compilação do .NET (Não devem ir para o GitHub)
 bin/
 obj/
 
-# Arquivos de ambiente e cache do VS Code
 .vscode/
 *.user
 appsettings.Development.json
 
-# Ignora a pasta de e-mails reais de teste e qualquer arquivo solto .msg
 Emails/
 *.msg

@@ -6,7 +6,9 @@ public class EmailDto
     public string? Cc { get; set; } // A interrogação significa que pode ser nulo (nem todo e-mail tem Cc)
     public string Assunto { get; set; } = string.Empty;
     public string Data { get; set; } = string.Empty;
+    public string? Para { get; set; }
     public string Corpo { get; set; } = string.Empty;
+    public string Preview { get; set; } = string.Empty;
     public List<AnexoDto> Anexos { get; set; } = new();
     }
 public class AnexoDto
